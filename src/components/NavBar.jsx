@@ -13,8 +13,8 @@ const Center = styled.div`flex:1; text-align:center`
 
 const Logo = styled.h1`font-weight:bold`
 
-const Language = styled.span`fond-size: 14px; cursor: pointer`
-const SearchContainer = styled.div`border:0.5px solid lightgrey; display:flex; align-items:center; margin-left:25px; padding:5px `
+const Language = styled.span`fond-size: 14px; cursor: pointer; font-weight:50px`
+const SearchContainer = styled.div`border:0.5px solid lightgrey; display:flex; align-items:center; margin-left:25px; padding:5px ; border-radius:25px; padding:10px`
 const Inputs = styled.input`border:none`;
 
 const MenuItems = styled.div`font-size:20px; cursor:pointer; margin-left:25px`
@@ -27,7 +27,7 @@ const NavBar = () => {
                 <Language>ENG</Language>
                 <SearchContainer><Inputs/> <Search style={{color:"gray", fontSize:15}}/></SearchContainer>
             </Left>
-            <Center><Logo> Shop Mart</Logo></Center>
+            <Center><Logo> SHOPIFY..</Logo></Center>
             <Right>
                 <MenuItems>Register</MenuItems>
                 <MenuItems>Sign In</MenuItems>
